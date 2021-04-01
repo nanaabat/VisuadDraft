@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8B9D1B261647DA0004CAFB /* VisuadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D1A261647DA0004CAFB /* VisuadApp.swift */; };
+		AE8B9D1D261647DA0004CAFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D1C261647DA0004CAFB /* ContentView.swift */; };
+		AE8B9D1F261647DD0004CAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8B9D1E261647DD0004CAFB /* Assets.xcassets */; };
+		AE8B9D22261647DD0004CAFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8B9D21261647DD0004CAFB /* Preview Assets.xcassets */; };
+		AE8B9D2D261647DD0004CAFB /* VisuadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D2C261647DD0004CAFB /* VisuadTests.swift */; };
+		AE8B9D38261647DD0004CAFB /* VisuadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D37261647DD0004CAFB /* VisuadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8B9D29261647DD0004CAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8B9D0F261647DA0004CAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8B9D16261647DA0004CAFB;
+			remoteInfo = Visuad;
+		};
+		AE8B9D34261647DD0004CAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8B9D0F261647DA0004CAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8B9D16261647DA0004CAFB;
+			remoteInfo = Visuad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE8B9D17261647DA0004CAFB /* Visuad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visuad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8B9D1A261647DA0004CAFB /* VisuadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisuadApp.swift; sourceTree = "<group>"; };
+		AE8B9D1C261647DA0004CAFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE8B9D1E261647DD0004CAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE8B9D21261647DD0004CAFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE8B9D23261647DD0004CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8B9D28261647DD0004CAFB /* VisuadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisuadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8B9D2C261647DD0004CAFB /* VisuadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisuadTests.swift; sourceTree = "<group>"; };
+		AE8B9D2E261647DD0004CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8B9D33261647DD0004CAFB /* VisuadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisuadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8B9D37261647DD0004CAFB /* VisuadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisuadUITests.swift; sourceTree = "<group>"; };
+		AE8B9D39261647DD0004CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8B9D14261647DA0004CAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8B9D25261647DD0004CAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8B9D30261647DD0004CAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8B9D0E261647DA0004CAFB = {
+			isa = PBXGroup;
+			children = (
+				AE8B9D19261647DA0004CAFB /* Visuad */,
+				AE8B9D2B261647DD0004CAFB /* VisuadTests */,
+				AE8B9D36261647DD0004CAFB /* VisuadUITests */,
+				AE8B9D18261647DA0004CAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8B9D18261647DA0004CAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B9D17261647DA0004CAFB /* Visuad.app */,
+				AE8B9D28261647DD0004CAFB /* VisuadTests.xctest */,
+				AE8B9D33261647DD0004CAFB /* VisuadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8B9D19261647DA0004CAFB /* Visuad */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B9D1A261647DA0004CAFB /* VisuadApp.swift */,
+				AE8B9D1C261647DA0004CAFB /* ContentView.swift */,
+				AE8B9D1E261647DD0004CAFB /* Assets.xcassets */,
+				AE8B9D23261647DD0004CAFB /* Info.plist */,
+				AE8B9D20261647DD0004CAFB /* Preview Content */,
+			);
+			path = Visuad;
+			sourceTree = "<group>";
+		};
+		AE8B9D20261647DD0004CAFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B9D21261647DD0004CAFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE8B9D2B261647DD0004CAFB /* VisuadTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B9D2C261647DD0004CAFB /* VisuadTests.swift */,
+				AE8B9D2E261647DD0004CAFB /* Info.plist */,
+			);
+			path = VisuadTests;
+			sourceTree = "<group>";
+		};
+		AE8B9D36261647DD0004CAFB /* VisuadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B9D37261647DD0004CAFB /* VisuadUITests.swift */,
+				AE8B9D39261647DD0004CAFB /* Info.plist */,
+			);
+			path = VisuadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8B9D16261647DA0004CAFB /* Visuad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8B9D3C261647DD0004CAFB /* Build configuration list for PBXNativeTarget "Visuad" */;
+			buildPhases = (
+				AE8B9D13261647DA0004CAFB /* Sources */,
+				AE8B9D14261647DA0004CAFB /* Frameworks */,
+				AE8B9D15261647DA0004CAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visuad;
+			productName = Visuad;
+			productReference = AE8B9D17261647DA0004CAFB /* Visuad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE8B9D27261647DD0004CAFB /* VisuadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8B9D3F261647DD0004CAFB /* Build configuration list for PBXNativeTarget "VisuadTests" */;
+			buildPhases = (
+				AE8B9D24261647DD0004CAFB /* Sources */,
+				AE8B9D25261647DD0004CAFB /* Frameworks */,
+				AE8B9D26261647DD0004CAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8B9D2A261647DD0004CAFB /* PBXTargetDependency */,
+			);
+			name = VisuadTests;
+			productName = VisuadTests;
+			productReference = AE8B9D28261647DD0004CAFB /* VisuadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE8B9D32261647DD0004CAFB /* VisuadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8B9D42261647DD0004CAFB /* Build configuration list for PBXNativeTarget "VisuadUITests" */;
+			buildPhases = (
+				AE8B9D2F261647DD0004CAFB /* Sources */,
+				AE8B9D30261647DD0004CAFB /* Frameworks */,
+				AE8B9D31261647DD0004CAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8B9D35261647DD0004CAFB /* PBXTargetDependency */,
+			);
+			name = VisuadUITests;
+			productName = VisuadUITests;
+			productReference = AE8B9D33261647DD0004CAFB /* VisuadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8B9D0F261647DA0004CAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AE8B9D16261647DA0004CAFB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AE8B9D27261647DD0004CAFB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AE8B9D16261647DA0004CAFB;
+					};
+					AE8B9D32261647DD0004CAFB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AE8B9D16261647DA0004CAFB;
+					};
+				};
+			};
+			buildConfigurationList = AE8B9D12261647DA0004CAFB /* Build configuration list for PBXProject "Visuad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8B9D0E261647DA0004CAFB;
+			productRefGroup = AE8B9D18261647DA0004CAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8B9D16261647DA0004CAFB /* Visuad */,
+				AE8B9D27261647DD0004CAFB /* VisuadTests */,
+				AE8B9D32261647DD0004CAFB /* VisuadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8B9D15261647DA0004CAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8B9D22261647DD0004CAFB /* Preview Assets.xcassets in Resources */,
+				AE8B9D1F261647DD0004CAFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8B9D26261647DD0004CAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8B9D31261647DD0004CAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8B9D13261647DA0004CAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8B9D1D261647DA0004CAFB /* ContentView.swift in Sources */,
+				AE8B9D1B261647DA0004CAFB /* VisuadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8B9D24261647DD0004CAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8B9D2D261647DD0004CAFB /* VisuadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8B9D2F261647DD0004CAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8B9D38261647DD0004CAFB /* VisuadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE8B9D2A261647DD0004CAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8B9D16261647DA0004CAFB /* Visuad */;
+			targetProxy = AE8B9D29261647DD0004CAFB /* PBXContainerItemProxy */;
+		};
+		AE8B9D35261647DD0004CAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8B9D16261647DA0004CAFB /* Visuad */;
+			targetProxy = AE8B9D34261647DD0004CAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE8B9D3A261647DD0004CAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE8B9D3B261647DD0004CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE8B9D3D261647DD0004CAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Visuad/Preview Content\"";
+				DEVELOPMENT_TEAM = D8LCVBNN78;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Visuad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VisuadInc.Visuad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE8B9D3E261647DD0004CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Visuad/Preview Content\"";
+				DEVELOPMENT_TEAM = D8LCVBNN78;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Visuad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VisuadInc.Visuad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE8B9D40261647DD0004CAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8LCVBNN78;
+				INFOPLIST_FILE = VisuadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VisuadInc.VisuadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visuad.app/Visuad";
+			};
+			name = Debug;
+		};
+		AE8B9D41261647DD0004CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8LCVBNN78;
+				INFOPLIST_FILE = VisuadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VisuadInc.VisuadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visuad.app/Visuad";
+			};
+			name = Release;
+		};
+		AE8B9D43261647DD0004CAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8LCVBNN78;
+				INFOPLIST_FILE = VisuadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VisuadInc.VisuadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Visuad;
+			};
+			name = Debug;
+		};
+		AE8B9D44261647DD0004CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8LCVBNN78;
+				INFOPLIST_FILE = VisuadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VisuadInc.VisuadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Visuad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8B9D12261647DA0004CAFB /* Build configuration list for PBXProject "Visuad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8B9D3A261647DD0004CAFB /* Debug */,
+				AE8B9D3B261647DD0004CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8B9D3C261647DD0004CAFB /* Build configuration list for PBXNativeTarget "Visuad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8B9D3D261647DD0004CAFB /* Debug */,
+				AE8B9D3E261647DD0004CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8B9D3F261647DD0004CAFB /* Build configuration list for PBXNativeTarget "VisuadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8B9D40261647DD0004CAFB /* Debug */,
+				AE8B9D41261647DD0004CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8B9D42261647DD0004CAFB /* Build configuration list for PBXNativeTarget "VisuadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8B9D43261647DD0004CAFB /* Debug */,
+				AE8B9D44261647DD0004CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8B9D0F261647DA0004CAFB /* Project object */;
+}
