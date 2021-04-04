@@ -3,16 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095869E8A4C36CFD4827ED73 /* Pods_Visuad_VisuadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7ECEE078B49AF93309C6C2 /* Pods_Visuad_VisuadUITests.framework */; };
+		422B6EFA90210AD6A1E407E8 /* Pods_Visuad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118A25FBC82AA12FE75D621D /* Pods_Visuad.framework */; };
 		AE8B9D1B261647DA0004CAFB /* VisuadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D1A261647DA0004CAFB /* VisuadApp.swift */; };
 		AE8B9D1D261647DA0004CAFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D1C261647DA0004CAFB /* ContentView.swift */; };
 		AE8B9D1F261647DD0004CAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8B9D1E261647DD0004CAFB /* Assets.xcassets */; };
 		AE8B9D22261647DD0004CAFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8B9D21261647DD0004CAFB /* Preview Assets.xcassets */; };
 		AE8B9D2D261647DD0004CAFB /* VisuadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D2C261647DD0004CAFB /* VisuadTests.swift */; };
 		AE8B9D38261647DD0004CAFB /* VisuadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B9D37261647DD0004CAFB /* VisuadUITests.swift */; };
+		AE8B9D49261648110004CAFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE8B9D48261648110004CAFB /* GoogleService-Info.plist */; };
+		D53306C5AAAA20E199294531 /* Pods_VisuadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D305B653F1247E8CBE3D071B /* Pods_VisuadTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D4A0E419646EB79D0F94198 /* Pods-Visuad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visuad.release.xcconfig"; path = "Target Support Files/Pods-Visuad/Pods-Visuad.release.xcconfig"; sourceTree = "<group>"; };
+		118A25FBC82AA12FE75D621D /* Pods_Visuad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Visuad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2EBAF99C27D656A254D59 /* Pods-Visuad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visuad.debug.xcconfig"; path = "Target Support Files/Pods-Visuad/Pods-Visuad.debug.xcconfig"; sourceTree = "<group>"; };
+		1B7ECEE078B49AF93309C6C2 /* Pods_Visuad_VisuadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Visuad_VisuadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F4B315493DC4E7C7952778 /* Pods-Visuad-VisuadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visuad-VisuadUITests.release.xcconfig"; path = "Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE8B9D17261647DA0004CAFB /* Visuad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visuad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8B9D1A261647DA0004CAFB /* VisuadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisuadApp.swift; sourceTree = "<group>"; };
 		AE8B9D1C261647DA0004CAFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,11 @@
 		AE8B9D33261647DD0004CAFB /* VisuadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisuadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8B9D37261647DD0004CAFB /* VisuadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisuadUITests.swift; sourceTree = "<group>"; };
 		AE8B9D39261647DD0004CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8B9D48261648110004CAFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7CB1741CCEBD3822D5D26AF /* Pods-Visuad-VisuadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visuad-VisuadUITests.debug.xcconfig"; path = "Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D305B653F1247E8CBE3D071B /* Pods_VisuadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisuadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7EFA8D492E5FC4D76DF45D /* Pods-VisuadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisuadTests.release.xcconfig"; path = "Target Support Files/Pods-VisuadTests/Pods-VisuadTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA71C416F487EF186A269EDF /* Pods-VisuadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisuadTests.debug.xcconfig"; path = "Target Support Files/Pods-VisuadTests/Pods-VisuadTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422B6EFA90210AD6A1E407E8 /* Pods_Visuad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D53306C5AAAA20E199294531 /* Pods_VisuadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095869E8A4C36CFD4827ED73 /* Pods_Visuad_VisuadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A78FCD32CE53789BBBE5494F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2EBAF99C27D656A254D59 /* Pods-Visuad.debug.xcconfig */,
+				0D4A0E419646EB79D0F94198 /* Pods-Visuad.release.xcconfig */,
+				C7CB1741CCEBD3822D5D26AF /* Pods-Visuad-VisuadUITests.debug.xcconfig */,
+				A2F4B315493DC4E7C7952778 /* Pods-Visuad-VisuadUITests.release.xcconfig */,
+				EA71C416F487EF186A269EDF /* Pods-VisuadTests.debug.xcconfig */,
+				DC7EFA8D492E5FC4D76DF45D /* Pods-VisuadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA19A7F2FC98E23D7206B543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118A25FBC82AA12FE75D621D /* Pods_Visuad.framework */,
+				1B7ECEE078B49AF93309C6C2 /* Pods_Visuad_VisuadUITests.framework */,
+				D305B653F1247E8CBE3D071B /* Pods_VisuadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE8B9D0E261647DA0004CAFB = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +119,8 @@
 				AE8B9D2B261647DD0004CAFB /* VisuadTests */,
 				AE8B9D36261647DD0004CAFB /* VisuadUITests */,
 				AE8B9D18261647DA0004CAFB /* Products */,
+				A78FCD32CE53789BBBE5494F /* Pods */,
+				AA19A7F2FC98E23D7206B543 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +137,7 @@
 		AE8B9D19261647DA0004CAFB /* Visuad */ = {
 			isa = PBXGroup;
 			children = (
+				AE8B9D48261648110004CAFB /* GoogleService-Info.plist */,
 				AE8B9D1A261647DA0004CAFB /* VisuadApp.swift */,
 				AE8B9D1C261647DA0004CAFB /* ContentView.swift */,
 				AE8B9D1E261647DD0004CAFB /* Assets.xcassets */,
@@ -137,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE8B9D3C261647DD0004CAFB /* Build configuration list for PBXNativeTarget "Visuad" */;
 			buildPhases = (
+				2BE84FBDD7B7B9E2CE3EC565 /* [CP] Check Pods Manifest.lock */,
 				AE8B9D13261647DA0004CAFB /* Sources */,
 				AE8B9D14261647DA0004CAFB /* Frameworks */,
 				AE8B9D15261647DA0004CAFB /* Resources */,
+				3AC3969BD321BEDE1FBAC684 /* [CP] Embed Pods Frameworks */,
+				948CA78070B62792C65EEF4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE8B9D3F261647DD0004CAFB /* Build configuration list for PBXNativeTarget "VisuadTests" */;
 			buildPhases = (
+				1A1CCA4B097F0EDB9BD68EAB /* [CP] Check Pods Manifest.lock */,
 				AE8B9D24261647DD0004CAFB /* Sources */,
 				AE8B9D25261647DD0004CAFB /* Frameworks */,
 				AE8B9D26261647DD0004CAFB /* Resources */,
@@ -172,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE8B9D42261647DD0004CAFB /* Build configuration list for PBXNativeTarget "VisuadUITests" */;
 			buildPhases = (
+				C353902154CF3AEFE3128093 /* [CP] Check Pods Manifest.lock */,
 				AE8B9D2F261647DD0004CAFB /* Sources */,
 				AE8B9D30261647DD0004CAFB /* Frameworks */,
 				AE8B9D31261647DD0004CAFB /* Resources */,
+				3CEBA1023ADB8B74790C5F11 /* [CP] Embed Pods Frameworks */,
+				A405F59AE3A24370D8C7DC11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +267,9 @@
 				Base,
 			);
 			mainGroup = AE8B9D0E261647DA0004CAFB;
+			packageReferences = (
+				AE8B9D5026164EE10004CAFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AE8B9D18261647DA0004CAFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +288,7 @@
 			files = (
 				AE8B9D22261647DD0004CAFB /* Preview Assets.xcassets in Resources */,
 				AE8B9D1F261647DD0004CAFB /* Assets.xcassets in Resources */,
+				AE8B9D49261648110004CAFB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +307,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1CCA4B097F0EDB9BD68EAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisuadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BE84FBDD7B7B9E2CE3EC565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Visuad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC3969BD321BEDE1FBAC684 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad/Pods-Visuad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad/Pods-Visuad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Visuad/Pods-Visuad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CEBA1023ADB8B74790C5F11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948CA78070B62792C65EEF4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad/Pods-Visuad-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad/Pods-Visuad-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Visuad/Pods-Visuad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A405F59AE3A24370D8C7DC11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Visuad-VisuadUITests/Pods-Visuad-VisuadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C353902154CF3AEFE3128093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Visuad-VisuadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE8B9D13261647DA0004CAFB /* Sources */ = {
@@ -414,6 +605,7 @@
 		};
 		AE8B9D3D261647DD0004CAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB2EBAF99C27D656A254D59 /* Pods-Visuad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +628,7 @@
 		};
 		AE8B9D3E261647DD0004CAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4A0E419646EB79D0F94198 /* Pods-Visuad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +651,7 @@
 		};
 		AE8B9D40261647DD0004CAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA71C416F487EF186A269EDF /* Pods-VisuadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +674,7 @@
 		};
 		AE8B9D41261647DD0004CAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7EFA8D492E5FC4D76DF45D /* Pods-VisuadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +697,7 @@
 		};
 		AE8B9D43261647DD0004CAFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CB1741CCEBD3822D5D26AF /* Pods-Visuad-VisuadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +718,7 @@
 		};
 		AE8B9D44261647DD0004CAFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F4B315493DC4E7C7952778 /* Pods-Visuad-VisuadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +777,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE8B9D5026164EE10004CAFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = AE8B9D0F261647DA0004CAFB /* Project object */;
 }
